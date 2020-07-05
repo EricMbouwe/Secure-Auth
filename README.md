@@ -24,3 +24,14 @@ run bundle install
   OR
   
   >curl --header "Content-Type: application/json" --request POST --data '{"user": {"email": "cslt@server.com", "password": "abcd"}}' http://localhost:3000/sessions
+
+# React front end app
+> DevCamp JavaScript Project Builder
+ https://www.npmjs.com/package/devcamp-js-builder
+ This node module allows you to build skeleton JavaScript projects, to get started, follow these instructions:
+
+Run npm install devcamp-js-builder -g to install the library globally on your system, if that runs into an issue, you can run sudo npm install devcamp-js-builder -g -f
+
+> To create a new project
+  - Change into the directory that you want to build the project in
+  - Run the command js-generate into the terminal and follow the prompts
