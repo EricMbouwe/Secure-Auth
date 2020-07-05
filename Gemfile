@@ -56,3 +56,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #added dependancies for the app
 gem 'bcrypt', '~> 3.1', '>= 3.1.13'
 gem 'rack-cors', :require => 'rack/cors'
+gem 'hirb'

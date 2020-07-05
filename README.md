@@ -14,3 +14,13 @@ run bundle install
 
 - cors.rb   // helps us to whitelist certain domains
 - session-store.rb
+
+> Exemple of api call with curl
+  >curl --header "Content-Type: application/json" \
+  > --request POST \
+  > --data '{"user": {"email": "cslt@server.com", "password": "abcd"}}' \
+  > http://localhost:3000/sessions
+
+  OR
+  
+  >curl --header "Content-Type: application/json" --request POST --data '{"user": {"email": "cslt@server.com", "password": "abcd"}}' http://localhost:3000/sessions
